@@ -190,7 +190,7 @@
         $( "#router" ).on("click", function() {
             $("#netwerk-content > div").hide();
             $("#router-content").show();
-            $("#netwerk").css('box-shadow', 'none');
+            $("#netwerk td").removeAttr('style');
             $(this).css('box-shadow', '0 0 60px #0B6ACD');
         });    
         $( "#switch" ).on("click", function() {
