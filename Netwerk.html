@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <title>GIP : Netwerk</title>
     <link href="main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
 <body>
             <nav>
@@ -61,14 +62,17 @@
         <h1>Netwerkschema Digiti</h1>
         <hr>
         <br>
+        <br>
         <div id="netwerk">
+            
                <table cellpading="0" cellspacing="0">
+
 					<tr>
 						<td width="217">
 							<img src="images/Network-Digiti-slices_01.png">
 						</td>
-						<td width="110" class= "router">
-
+						<td width="110" id= "router">
+                            <img src="images/Network-Digiti-slices_02.png">
 						</td>
 						<td width="278">
 							<img src="images/Network-Digiti-slices_03.png">
@@ -114,9 +118,101 @@
 						</td>
 					</tr>
 				</table>
-        </div>                    
+        </div>
+        <br>
+        <br>
+        <div id="netwerk-content">
+            <div id="router-content">
+                <table>
+                    <tr>
+                        <td width="700" class="tabel">Router</td>
+                    </tr>
+                    <tr>
+                        <td>picture</td>
+                    </tr>
+                </table>
+            </div>
+           <div id="switch-content">
+                <table><tr>
+                        <td width="700" class="tabel">Switch</td>
+                    </tr>
+                    <tr>
+                        <td>picture</td>
+                    </tr>
+                </table>
+            </div>
+                <div id="nas-content">
+                <table><tr>
+                        <td width="700" class="tabel">NAS</td>
+                    </tr>
+                    <tr>
+                        <td>picture</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="workstation-content">
+                <table><tr>
+                        <td width="700" class="tabel">workstations (x5)</td>
+                    </tr>
+                    <tr>
+                        <td>picture</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="wifi-content">
+                <table><tr>
+                        <td width="700" class="tabel">wifi (x2)</td>
+                    </tr>
+                    <tr>
+                        <td>picture</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="printer-content">
+                <table><tr>
+                        <td width="700" class="tabel">printer</td>
+                    </tr>
+                    <tr>
+                        <td>picture</td>
+                    </tr>
+                </table>
+            </div>            
+        </div>
     </div>
 </div>
+
+<script>
+    $(function() {
+        $("#netwerk-content > div").hide();
+        $( "#router" ).on("click", function() {
+            $("#netwerk-content > div").hide();
+            $("#router-content").show();
+            $(this).css('border', '3px solid black');
+        });    
+        $( "#switch" ).on("click", function() {
+             $("#netwerk-content > div").hide();
+             $("#switch-content").show();
+        });  
+        $( "#nas" ).on("click", function() {
+             $("#netwerk-content > div").hide();
+             $("#nas-content").show();
+        });   
+        $( "#workstation" ).on("click", function() {
+             $("#netwerk-content > div").hide();
+             $("#workstation-content").show();
+        });  
+        $( "#wifi" ).on("click", function() {
+             $("#netwerk-content > div").hide();
+             $("#wifi-content").show();
+        });    
+        $( "#printer" ).on("click", function() {
+             $("#netwerk-content > div").hide();
+             $("#printer-content").show();
+        });    
+    });
+
+
+</script>
 
 
 </body>

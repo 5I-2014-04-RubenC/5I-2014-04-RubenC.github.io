@@ -71,10 +71,11 @@ h6{
     align-items: center;
     margin: 0 auto;
     width: 582px;
-    
+    box-sizing: border-box;
 }
-#tabel{
+.tabel{
     background-color: white;
+    text-align: left;
     color:#121A81;
     padding: 20;
 }

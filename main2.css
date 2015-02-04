@@ -39,12 +39,17 @@ h2{
 }
 h3{
     color:white;
-    text-align: center;
+    text-align: #121A81;
 }
 h6{
     border-bottom-width: thin;
     border-bottom-color: "white";
     border-bottom-style:groove;
+}
+.tabel{
+    width: "700px";
+    background-color: white;
+    
 }
 
 .content{
@@ -126,5 +131,10 @@ nav ul li {
      display: block;
 }
 	nav ul li:hover a {
-			color: #fff;
+			color: #575f6a;
+        
+}
+nav ul ul li:hover a{
+    color: white;
+    
 }
