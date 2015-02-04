@@ -73,6 +73,11 @@ h6{
     width: 582px;
     box-sizing: border-box;
 }
+#top{
+    vertical-align: bottom;
+    margin-top: 30;
+}
+
 .tabel{
     background-color: white;
     text-align: left;

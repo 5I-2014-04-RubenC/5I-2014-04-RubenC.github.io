@@ -70,12 +70,16 @@
             
                <table cellpading="0" cellspacing="0">
 
-					<tr>
+					<tr height="100" >
 						<td width="217">
-							<img src="images/Network-Digiti-slices_01.png">
+
+                            <img src="images/Network-Digiti-slices_01.png">
+							
 						</td>
 						<td width="110" id= "router">
+                        <div id="top">
                             <img src="images/Network-Digiti-slices_02.png">
+                        </div>
 						</td>
 						<td width="278">
 							<img src="images/Network-Digiti-slices_03.png">
@@ -191,32 +195,37 @@
             $("#netwerk-content > div").hide();
             $("#router-content").show();
             $("#netwerk td").removeAttr('style');
-            $(this).css('box-shadow', '0 0 60px #0B6ACD');
+            $(this).css('box-shadow', '0 0 60px 7px #0B6ACD');
         });    
         $( "#switch" ).on("click", function() {
              $("#netwerk-content > div").hide();
              $("#switch-content").show();
-            $(this).css('box-shadow', '0 0 60px #0B6ACD');
+                        $("#netwerk td").removeAttr('style');
+            $(this).css('box-shadow', '0 0 60px 7px #0B6ACD');
         });  
         $( "#nas" ).on("click", function() {
              $("#netwerk-content > div").hide();
              $("#nas-content").show();
-            $(this).css('box-shadow', '0 0 60px #0B6ACD');
+                       $("#netwerk td").removeAttr('style');
+            $(this).css('box-shadow', '0 0 60px 7px #0B6ACD');
         });   
         $( "#workstation" ).on("click", function() {
              $("#netwerk-content > div").hide();
              $("#workstation-content").show();
-            $(this).css('box-shadow', '0 0 60px #0B6ACD');
+                       $("#netwerk td").removeAttr('style');
+            $(this).css('box-shadow', '0 0 60px 7px #0B6ACD');
         });  
         $( "#wifi" ).on("click", function() {
              $("#netwerk-content > div").hide();
              $("#wifi-content").show();
-            $(this).css('box-shadow', '0 0 60px #0B6ACD');
+                        $("#netwerk td").removeAttr('style');
+            $(this).css('box-shadow', '0 0 60px 7px #0B6ACD');
         });    
         $( "#printer" ).on("click", function() {
              $("#netwerk-content > div").hide();
              $("#printer-content").show();
-            $(this).css('box-shadow', '0 0 60px #0B6ACD');
+                        $("#netwerk td").removeAttr('style');
+            $(this).css('box-shadow', '0 0 60px 7px #0B6ACD');
         });    
     });
 
