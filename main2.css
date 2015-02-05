@@ -1,14 +1,15 @@
 @font-face {
-    font-family: FontUbuntu;
-    src: url(ubuntu-font-family-0.80/Ubuntu-B.ttf);
+    font-family: FontDense;
+    src: url(dense/Dense-Regular.otf);
 }
 
 
 * {
     box-sizing: border-box;
-    font-family: FontUbuntu;  
+    font-family: FontDense;  
     margin: 0;
     padding: 0;
+    font-size: 20;
     
 }
 p{
@@ -34,7 +35,9 @@ h1{
     border-bottom-color: #0B6ACD;
 }
 h2{
-   color:  #0B6ACD;
+   color:  white;
+    font-size: 30px;
+    margin-left: 20
     
 }
 h3{
@@ -48,7 +51,8 @@ h6{
 }
 .tabel{
     width: "700px";
-    background-color: white;
+    background-color: #BBCE72;
+    color: white;
     
 }
 
@@ -69,7 +73,13 @@ h6{
     background-attachment: fixed;
     min-height: calc(100% - 100px);
 }
-
+#intro{
+    color: #7F4174;
+    text-align: center;
+    font-size: 25px;``
+    margin-bottom: 500;
+    
+}
 
 nav{
     position: fixed;
