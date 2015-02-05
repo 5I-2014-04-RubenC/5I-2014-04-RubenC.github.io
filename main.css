@@ -30,8 +30,8 @@ h1{
     text-align: center;
     padding-bottom: 20;
     border-bottom-width:medium;
-    border-bottom-style:groove;
-    border-bottom-color: #0B6ACD;
+    border-bottom-style:solid;
+    border-bottom-color: #00C2E9;
 }
 h2{
    color:  #0B6ACD;

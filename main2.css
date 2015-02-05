@@ -13,7 +13,7 @@
     
 }
 p{
-    padding-bottom: 10;
+    padding: 10;
 }
 
 
@@ -76,8 +76,9 @@ h6{
 #intro{
     color: #7F4174;
     text-align: center;
-    font-size: 25px;``
-    margin-bottom: 500;
+    font-size: 25px;
+    padding-bottom:20;
+    margin-top:-40
     
 }
 
