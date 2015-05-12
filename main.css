@@ -20,9 +20,10 @@ body{
 	width: 900;
 	margin: 0 auto;
     background-image: url(images/Nbackground4.jpg);
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top right;
+    
     background-attachment: fixed;
 }
 
