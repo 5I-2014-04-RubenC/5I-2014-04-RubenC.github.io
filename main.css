@@ -126,23 +126,25 @@ nav ul {
     margin: 0 auto;
 	display: block;
     width: 900px;
+    
 }
     nav ul ul {
         display: none;
-        width: 250px;
+        width: 286px;
     }
 	nav ul:after {
 		content: ""; clear: both; display: block;
 	}
 nav ul li {
 	float: left;
-    width: 250;
+    width: 286;
     align-content: center;
     text-align: center;
+    
 }
 	nav ul li a {
 		display: block; padding: 25px 40px;
-		color: #757575; text-decoration: none;
+		color:#0B6ACD; text-decoration: none;
 	}
     nav ul ul {
 	background: #5f6975; border-radius: 0px; padding: 0;
@@ -154,6 +156,7 @@ nav ul li {
 		border-bottom: 1px solid #575f6a;
 		position: relative;
         text-align: left;
+        
 }
 	nav ul li:hover {
 		background: #4b545f;

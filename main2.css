@@ -110,14 +110,14 @@ nav ul {
 }
     nav ul ul {
         display: none;
-        width: 250px;
+        width: 286px;
     }
 	nav ul:after {
 		content: ""; clear: both; display: block;
 	}
 nav ul li {
 	float: left;
-    width: 250;
+    width: 286;
     align-content: center;
     text-align: center;
 }
