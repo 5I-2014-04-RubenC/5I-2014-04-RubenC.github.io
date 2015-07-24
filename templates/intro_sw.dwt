@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>ALUMINIUM MACHINE CENTERS ALUMUNUM MUBEA SYSTEMS</title>
+<!-- TemplateEndEditable -->
+<link href="../ms_css/mubea_systems.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+-->
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrapper_float">
+  <div id="top_logo"><img src="../movies_pictures/drawings_general/top_logo.jpg" width="990" height="120" /></div>
+  <div id="navi_main"><!-- TemplateBeginEditable name="navi_main" --><a href="../english/index.html">Home</a> | <a href="../english/paginas/company.html">Company</a> | <a href="../english/paginas/history.html">History</a> | <span class="nav_horiz_active_page">Products</span> | <a href="../english/paginas/contact.html">Contact</a> | Downloads | Sitemap<!-- TemplateEndEditable --></div>
+  <div id="space_after_navi"><img src="../movies_pictures/drawings_general/space_after_navi.jpg" width="990" height="6" /></div>
+  <div id="float_product_box">
+     <div id="float_product_box_li">
+      <div id="float_product_box_li_top"><!-- TemplateBeginEditable name="EditRegion5" -->
+        <h1>EditRegion5</h1>
+      <!-- TemplateEndEditable --></div>
+      <div id="float_navi_vert_products">
+        <!-- TemplateBeginEditable name="navi_vert_products" --><h1>INTRODUCTION</h1>
+        <p><a href="../english/templates/movies.html">HACO &amp; MUBEA</a></p>
+        <p>&nbsp;</p>
+        <h1>COMPONENTS</h1>
+        <p><a href="../english/products/suppliers/intro_nc.html">NC CONTROLLER</a></p>
+        <p>	<a href="../english/products/suppliers/intro_pneumatics.html">PNEUMATICS</a></p>
+        <p><a href="../english/products/suppliers/intro_guides_mf.html">GUIDES - DRIVE SYSTEMS</a></p>
+        <p>&nbsp;</p>
+<h1>SOFTWARE</h1>
+        <p class="nav_horiz_active_page">PROFILE_3D</p>
+        <p>&nbsp;</p>
+        <h1>5-AXIS MACHINES</h1>
+           <p><a href="../english/products/mf/intro.html">MULTI-FLEX</a></p>
+           <p><a href="../english/products/pf/intro.html">PROFILE-FLEX</a></p>
+        <p>&nbsp;</p>
+        <h1>4-AXIS SAW CENTER</h1>
+         <p><a href="../english/products/af/intro.html">ALU-FLEX</a></p>
+        <p>&nbsp;</p>
+        <h1>4-AXIS MACHINES</h1>
+        <p><a href="../english/products/df/intro.html">DYNA-FLEX</a></p>
+         <p><a href="../english/products/ff/intro.html">FORA-FLEX</a></p>
+         <p><a href="../english/products/rf/intro.html">ROTA-FLEX</a></p>
+        <p>&nbsp;</p>
+        <h1>3-AXIS MACHINES</h1>
+        <p><a href="../english/products/lf/intro.html">LIMA-FLEX</a></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+<p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <!-- TemplateEndEditable -->
+</div>
+    </div>
+  	<div id="float_product_box_re">
+      <div id="float_product_box_re_top"><!-- TemplateBeginEditable name="EditRegion6" --><a href="../english/templates/intro.html">Intro</a> | <a href="../english/templates/pictures.html"> Pictures</a> | <a href="../english/templates/movie.html">Movies</a><!-- TemplateEndEditable --></div>
+      <div id="float_text_box_products"><iframe width="720" height="544" src="flash_software.html" scrolling="no" name="flash_index_small" frameborder="0"></iframe>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+  <div id="bottom">
+    <div id="bottom2">&copy; Mubea Systems 2009</div>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+

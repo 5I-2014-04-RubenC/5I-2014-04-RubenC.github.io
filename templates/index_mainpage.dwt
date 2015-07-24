@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>ALUMINIUM MACHINE CENTERS ALUMUNUM MUBEA SYSTEMS</title>
+<!-- TemplateEndEditable -->
+<link href="../ms_css/mubea_systems.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="top_logo">       <!-- TemplateBeginEditable name="EditRegion6" -->
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <!-- TemplateEndEditable --></div>
+  <div id="navi_main_box">
+    <div id="navi_main_lang">
+     <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li><a class="MenuBarItemSubmenu" href="#">Choose language</a>
+        <ul>
+          <li><a href="../english/index.html">English Metric</a></li>
+          <li><a href="../english_imperial/index.html">English Imperial</a></li>
+          <li><a href="../german/index.html">German</a></li>
+          <li><a href="../french/index.html">French</a></li>
+          <li><a href="../chinese/index.html">Chinese  中文</a></li>
+          <li><a href="translate.html">All other languages</a></li>
+        </ul>
+      </li>
+	 </ul>
+    </div>
+  <div id="navi_main_index"><!-- TemplateBeginEditable name="navi_main" --><a href="../index.html">Home</a> | <a href="../paginas/company.html">Company</a> | <a href="../paginas/history.html">History</a> |<a href="../paginas/products.html"> Products</a> | <a href="../paginas/contact.html">Contact</a> | <a href="../paginas/downloads.html">Downloads</a> | Sitemap<!-- TemplateEndEditable --></div>
+  </div>
+  <div id="space_after_navi"><img src="../movies_pictures/drawings_general/space_after_navi.jpg" width="990" height="6" /></div>
+  <div id="fix_blok_index_page"><!-- TemplateBeginEditable name="EditRegion5" -->English Metric<!-- TemplateEndEditable --></h1></div>
+  <div id="flash_index_page">
+    <iframe width="990" height="245" src="english/flash_large_index.html" scrolling="no" name="flash_index_large" frameborder="0"></iframe>
+  </div>
+  <div id="flash_small"><iframe width="212" height="236" src="flash/flash_small_ index/flash_small_ index.html" scrolling="no" name="flash_index_small" frameborder="0"></iframe></div>
+  <div id="text_index_page">
+     <!-- TemplateBeginEditable name="EditRegion3" -->TEXT BLOK MAIN PAGE <!-- TemplateEndEditable --></div>
+  <div id="bottom">&copy; Mubea Systems 2009</div>
+</div>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Naamloos document</title>
+<script language="JavaScript1.1">
+<!--
+
+//*****************************************
+// Blending Image Slide Show Script- 
+// © Dynamic Drive (www.dynamicdrive.com)
+// For full source code, visit http://www.dynamicdrive.com/
+//*****************************************
+
+//specify interval between slide (in mili seconds)
+var slidespeed=1250
+
+//specify images
+var slideimages=new Array("germany.jpg","mouscron.jpg","ardooie.jpg","china.jpg","india.jpg","usa.jpg")
+
+//specify corresponding links
+var slidelinks=new Array("","","","","","")
+
+
+var newwindow=1 //open links in new window? 1=yes, 0=no
+
+
+var imageholder=new Array()
+var ie=document.all
+for (i=0;i<slideimages.length;i++){
+imageholder[i]=new Image()
+imageholder[i].src=slideimages[i]
+}
+
+function gotoshow(){
+if (newwindow)
+window.open(slidelinks[whichlink])
+else
+window.location=slidelinks[whichlink]
+}
+
+//-->
+</script>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style></head>
+
+<body>
+<a href="javascript:gotoshow()"><img src="germany.jpg" name="slide" border=0 style="filter:blendTrans(duration=3)" width=212 height=245></a>
+
+<script language="JavaScript1.1">
+<!--
+
+var whichlink=0
+var whichimage=0
+var blenddelay=(ie)? document.images.slide.filters[0].duration*1000 : 0
+function slideit(){
+if (!document.images) return
+if (ie) document.images.slide.filters[0].apply()
+document.images.slide.src=imageholder[whichimage].src
+if (ie) document.images.slide.filters[0].play()
+whichlink=whichimage
+whichimage=(whichimage<slideimages.length-1)? whichimage+1 : 0
+setTimeout("slideit()",slidespeed+blenddelay)
+}
+slideit()
+
+//-->
+</script>
+</body>
+</html>
