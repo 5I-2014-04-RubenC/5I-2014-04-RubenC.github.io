@@ -19,7 +19,7 @@
 	<infoitem key="LocalAdaptive" value="1" />
 	<infoitem key="LossyGifAmount" value="0" />
 	<infoitem key="ProgressiveJPEG" value="0" />
-	<infoitem key="TransparencyIndex" value="0" />
+	<infoitem key="Transparencyindex" value="0" />
 	<infoitem key="UseScale" value="true" />
 	<infoitem key="PercentScale" value="100" />
 	<infoitem key="ApplyScale" value="false" />
